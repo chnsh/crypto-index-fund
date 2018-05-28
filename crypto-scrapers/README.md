@@ -5,7 +5,7 @@ This micro-service currently implements a CoinGecko.com scraper, and persists th
 ### Installation
 ```mysql
 create database crypto_indexing;
-
+use crypto_indexing;
 CREATE TABLE `coin_gecko_historic_data`
   (
      `rank`                    INT(11) NOT NULL,
